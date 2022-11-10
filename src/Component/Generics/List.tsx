@@ -11,7 +11,7 @@ export const List = < T extends{} >({items,onClick}:ListProps<T>)=>{
             {items.map((item,index)=>{
                 return(
                     <div key={index} onClick={()=> onClick(item)}>
-                        {item}
+                       {/* {item} */}
                         </div>
                 )
             }
